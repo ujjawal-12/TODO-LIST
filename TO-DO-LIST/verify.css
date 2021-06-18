@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div#body{
+  background: url(pic5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+div#content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  border: 1px solidblack;
+  height: 330px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+div#content div#box-1,div#box-2{
+  height: 330px;
+  width: 300px;
+  border: 1px solid teal;
+  
+}
+
+div.form{
+  height: 330px;
+  width: 300px;
+  color: white;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  /* align-items: center; */
+}
+form{
+  height: 210px;
+}
+input{
+  border:2px solid teal;
+  padding: 4px;
+  margin: 7px;
+  outline: none;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 10px;
+}
+label{
+  margin: 10px;
+}
+div h2{
+  margin-bottom: 15px;
+  color: tomato;
+   flex: none;
+  text-align: center;
+}
+
+input[type="submit"]{
+  padding: 7px;
+  color: white;
+}
+span#uname,#pswrd,#u-name,#psswrd-d,#mail-id{
+  color: red;
+}
